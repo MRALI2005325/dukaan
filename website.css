@@ -1,0 +1,187 @@
+/* Style guud */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #101514;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background-color: #fc5102;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+#title{
+  background-color: #0b0000;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+nav{
+  text-align: center;
+}
+nav a {
+  padding: 10px;
+  color: white;
+}
+nav a:hover{
+  color: rgb(17, 0, 128);
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('soccer-game-concept.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(254, 254, 254);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero p {
+  margin: 15px auto;
+  max-width: 600px;
+  color: rgb(200, 199, 199);
+}
+
+/* About */
+#about {
+  background-image: url('soccer.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#about h2 {
+  color: #fd0b02;
+  text-align: left;
+  margin-bottom: 15px;
+}
+#about p {
+  text-align: left;
+  width: 40%;
+  color: #fa7501;
+  margin-bottom: 15px;
+}
+
+/* Teams */
+.teams {
+  background-image: url('champions\ league.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+.teams h2{
+  color: #fbfcfb;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team {
+  background: #130e1a;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.team:hover {
+  transform: scale(1.05);
+}
+
+.team img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.team  {
+  color: #00804b;
+  margin-top: 10px;
+}
+
+/* clubs */
+.clubs {
+  background-image: url('champions\ league.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+.clubs h2{
+  color: #fbfcfb;
+}
+
+.club-list2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.club {
+  background: #130e1a;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.club:hover {
+  transform: scale(1.05);
+}
+
+.club img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.club  {
+  color: #00804b;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: #fc5102;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+footer p{
+  background-color: #060606;
+  color: white;
+}
